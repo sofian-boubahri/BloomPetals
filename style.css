@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.link {
+    height: 55px;
+    background-color: gainsboro;
+}
+ 
+.nav-bar {
+    padding: 20px;
+    word-spacing: 20px;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    padding: 20px;
+    font-family: Brush Script MT, Brush Scr ipt Std, cursive;
+}
+
+.box {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    height: 145px;
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+hr {
+    margin: 30px;
+    background-color: #ccc;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.titre {
+    text-align: center;
+}
+
+.item {
+    max-width: 300px;
+}
+
+footer {
+    background-color: #ccc;
+    height: 200px;
+}
+
+.footers {
+    justify-content: center;
+    padding: 80px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #0d1741, #63D9B3);
+    background-size: 400% 400%;
+    animation: sf-gradient-animation 10s ease infinite;
+    color: #333;
+}
+
+@keyframes sf-gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.formulaire {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 20px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 400px;
+}
+
+.formulaire a {
+    text-align: center; 
+    display: block; 
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
+}
+
+.formulaire div {
+    margin-bottom: 15px;
+}
+
+.formulaire label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.formulaire select {
+    margin-bottom: 15px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+     width: 95%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+select {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c; 
+}
+
+.test {
+    display: flex;
+}
+
+.mosaique {
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 145px;
+}
+
+.mosaique:hover {
+    transform: scale(1.5);
+}
+
+
+.te {
+    font-family: Brush Script MT, Brush Scr ipt Std, cursive;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.entreprise {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.entreprise:hover {
+    transform: scale(1.1);
+}
+
+
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
